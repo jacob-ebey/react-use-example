@@ -1,8 +1,6 @@
 import { defer } from "@remix-run/node";
 import { Link, useLoaderData } from "@remix-run/react";
-import { Suspense } from "react";
-// @ts-expect-error
-import { experimental_use as use } from "react";
+import { Suspense, experimental_use as use } from "react";
 
 function delay<T = unknown>(value: T, ms: number) {
   return new Promise<T>((resolve) => setTimeout(() => resolve(value), ms));

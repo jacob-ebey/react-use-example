@@ -19,7 +19,7 @@ function Message({ message }: { message: Promise<string> | string }) {
   return <p>{resolvedMessage}</p>;
 }
 
-export default function Index() {
+export default function About() {
   const { first, second } = useLoaderData<typeof loader>();
 
   return (
