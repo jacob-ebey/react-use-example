@@ -1,0 +1,30 @@
+{
+  "include": ["app/**/*.ts", "app/**/*.tsx"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2019"],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "ES2019",
+    "strict": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./app/*"]
+    },
+    "types": [
+      "react/experimental",
+      "react-dom/experimental",
+      "@remix-run/dev",
+      "@remix-run/node",
+      "react-extension.d.ts"
+    ],
+    "typeRoots": ["node_modules/@types", "types"],
+
+    // Remix takes care of building everything in `remix build`.
+    "noEmit": true
+  }
+}
