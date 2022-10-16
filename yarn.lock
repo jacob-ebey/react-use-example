@@ -5486,7 +5486,7 @@ raw-body@2.5.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-dom@experimental:
+react-dom@0.0.0-experimental-3b814327e-20221014:
   version "0.0.0-experimental-3b814327e-20221014"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-0.0.0-experimental-3b814327e-20221014.tgz#c03a93b1dd3db708e7df29929d71ee768f9843c0"
   integrity sha512-/sul2GuTzSdacgWoEs2HvHUus9EqBDp5W+JzP3CJdet8zaIV4vSlQIZz18ZCg4cGlgxJZGxbRBRJXFEGkMvKyQ==
@@ -5519,7 +5519,7 @@ react-router@6.4.2:
   dependencies:
     "@remix-run/router" "1.0.2"
 
-react@experimental:
+react@0.0.0-experimental-3b814327e-20221014:
   version "0.0.0-experimental-3b814327e-20221014"
   resolved "https://registry.yarnpkg.com/react/-/react-0.0.0-experimental-3b814327e-20221014.tgz#c7ec6717f795c8081a789fc08d391876cb35e0e0"
   integrity sha512-R2E7Mgeg0LRp++B6wMZNBMTcBAWcPJ3e2XjHP8fPKldt5qG9z7uFZvGCRMVn2K12jiyv1ILNJSEoH/F44lzbkA==

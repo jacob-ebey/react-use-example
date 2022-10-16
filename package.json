@@ -11,8 +11,8 @@
     "@remix-run/react": "0.0.0-experimental-9b7f37c9a",
     "@remix-run/serve": "0.0.0-experimental-9b7f37c9a",
     "isbot": "^3.5.4",
-    "react": "experimental",
-    "react-dom": "experimental"
+    "react": "0.0.0-experimental-3b814327e-20221014",
+    "react-dom": "0.0.0-experimental-3b814327e-20221014"
   },
   "devDependencies": {
     "@remix-run/dev": "0.0.0-experimental-9b7f37c9a",
